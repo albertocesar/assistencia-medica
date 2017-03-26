@@ -1,0 +1,58 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Alberto</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Alberto</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Alberto.csproj" File="Alberto.csproj" ReplaceParameters="true">
+      <Folder Name="vstg0001" TargetFolderName="Códigos">
+        <Folder Name="assets" TargetFolderName="assets">
+          <Folder Name="css" TargetFolderName="css">
+            <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome.min.css">font-awesome.min.css</ProjectItem>
+            <Folder Name="images" TargetFolderName="images">
+              <ProjectItem ReplaceParameters="false" TargetFileName="overlay.png">overlay.png</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="main.css">main.css</ProjectItem>
+          </Folder>
+          <Folder Name="js" TargetFolderName="js">
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.min.js">jquery.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="skel.min.js">skel.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="util.js">util.js</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="generic.aspx">generic.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="generic.aspx.cs">generic.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="generic.aspx.designer.cs">generic.aspx.designer.cs</ProjectItem>
+        <Folder Name="images" TargetFolderName="images">
+          <ProjectItem ReplaceParameters="false" TargetFileName="banner.jpg">banner.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic01.jpg">pic01.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic02.png">pic02.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic04.jpg">pic04.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic05.jpg">pic05.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic06.jpg">pic06.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic07.jpg">pic07.jpg</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.aspx">index.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.aspx.cs">index.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.aspx.designer.cs">index.aspx.designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
